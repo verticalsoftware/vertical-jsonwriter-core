@@ -11,7 +11,7 @@
       Abstraction layer overtop System.Text.Json that handles structural reading of JSON content.
     </Description>
     <Authors>Vertical Software Contributors</Authors>
-    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionPrefix>1.0.1</VersionPrefix>
     <PackageId>vertical-jsonwriter-core</PackageId>
     <PackageTags>infrastructure;utilities</PackageTags>
     <PackageProjectUrl>https://github.com/verticalsoftware/vertical-jsonwriter-core</PackageProjectUrl>
