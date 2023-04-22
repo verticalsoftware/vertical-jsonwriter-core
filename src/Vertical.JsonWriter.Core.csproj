@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace />
+    <IsPackable>true</IsPackable>
+    <Title>vertical-jsonwriter-core</Title>
+    <Description>
+      Abstraction layer overtop System.Text.Json that handles structural reading of JSON content.
+    </Description>
+    <Authors>Vertical Software Contributors</Authors>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <PackageId>vertical-jsonwriter-core</PackageId>
+    <PackageTags>infrastructure;utilities</PackageTags>
+    <PackageProjectUrl>https://github.com/verticalsoftware/vertical-jsonwriter-core</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <PackageIcon>icon.png</PackageIcon>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolsPackageFormat>snupkg</SymbolsPackageFormat>
+    <SignAssembly>false</SignAssembly>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="../assets/icon.png" Pack="true" Visible="false" PackagePath="" />
+    <Content Include="../README.md">
+      <Pack>true</Pack>
+      <PackagePage>/</PackagePage>
+    </Content>
+  </ItemGroup>
+
+</Project>
