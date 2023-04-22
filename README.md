@@ -47,6 +47,7 @@ The `JsonVisitingState` structure contains information regarding the location of
 |`JsonPlacement`|One of `JsonPlacement` values that describe the location of the current node.|
 
 The `JsonPlacement` enum describes the placement of the current node, relative to its parent:
+
 |Value|Description|
 |---|---|
 |`RootDocument`|The node is a child of the top-most array or object.|
