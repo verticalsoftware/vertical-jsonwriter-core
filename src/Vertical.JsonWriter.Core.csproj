@@ -15,6 +15,7 @@
     <PackageId>vertical-jsonwriter-core</PackageId>
     <PackageTags>infrastructure;utilities</PackageTags>
     <PackageProjectUrl>https://github.com/verticalsoftware/vertical-jsonwriter-core</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/verticalsoftware/vertical-jsonwriter-core</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -30,10 +31,10 @@
   
   <ItemGroup>
     <None Include="../assets/icon.png" Pack="true" Visible="false" PackagePath="" />
-    <Content Include="../README.md">
+    <None Include="../README.md">
       <Pack>true</Pack>
-      <PackagePage>/</PackagePage>
-    </Content>
+      <PackagePath>/</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
